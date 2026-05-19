@@ -1,0 +1,223 @@
+:root {
+    --cs-ink: #17202a;
+    --cs-muted: #687381;
+    --cs-primary: #0f766e;
+    --cs-primary-dark: #115e59;
+    --cs-accent: #f59e0b;
+    --cs-soft: #eef8f6;
+    --cs-border: #dde7e4;
+}
+
+body {
+    background: #f7faf9;
+    color: var(--cs-ink);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.navbar-codeschool {
+    background: linear-gradient(90deg, #0f766e 0%, #134e4a 100%);
+    box-shadow: 0 10px 30px rgba(15, 118, 110, 0.18);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.brand-logo {
+    width: 52px;
+    height: 52px;
+}
+
+.brand-name {
+    color: #fff;
+    font-size: 1.65rem;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.navbar-codeschool .nav-link {
+    color: rgba(255, 255, 255, 0.92) !important;
+    font-weight: 600;
+}
+
+.navbar-codeschool .nav-link:hover {
+    color: #fff !important;
+}
+
+.hero-section {
+    position: relative;
+    min-height: 430px;
+    overflow: hidden;
+    background: #12332f;
+}
+
+.hero-image {
+    width: 100%;
+    min-height: 430px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 720px;
+    padding: 4rem 7vw;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(10, 38, 35, 0.9) 0%, rgba(10, 38, 35, 0.64) 48%, rgba(10, 38, 35, 0.05) 100%);
+}
+
+.hero-kicker {
+    margin-bottom: 0.5rem;
+    color: #fcd34d;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.hero-overlay h1 {
+    font-size: 4.75rem;
+    font-weight: 900;
+    line-height: 0.95;
+    margin-bottom: 1rem;
+}
+
+.hero-copy {
+    max-width: 560px;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 1.15rem;
+    line-height: 1.65;
+}
+
+.courses-section,
+.public-section {
+    background: #f7faf9;
+}
+
+.course-card {
+    width: 100%;
+    border: 1px solid var(--cs-border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 14px 34px rgba(23, 32, 42, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 44px rgba(23, 32, 42, 0.13);
+}
+
+.course-img {
+    height: 180px;
+    object-fit: cover;
+    background: var(--cs-soft);
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.price-pill {
+    display: inline-block;
+    padding: 0.3rem 0.55rem;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #166534;
+    font-weight: 800;
+}
+
+.btn-primary {
+    background-color: var(--cs-primary);
+    border-color: var(--cs-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--cs-primary-dark);
+    border-color: var(--cs-primary-dark);
+}
+
+.btn-outline-primary {
+    color: var(--cs-primary);
+    border-color: var(--cs-primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: var(--cs-primary);
+    border-color: var(--cs-primary);
+}
+
+.app-form-card,
+.card.shadow {
+    border: 1px solid var(--cs-border);
+    border-radius: 8px;
+}
+
+.footer-codeschool {
+    background: #0b2422;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(180deg, #102522 0%, #17202a 100%);
+    box-shadow: 10px 0 30px rgba(23, 32, 42, 0.12);
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.88);
+    margin: 0.15rem 0.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.content {
+    width: 80%;
+    margin-left: 20%;
+    padding: 30px;
+}
+
+.table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .hero-overlay {
+        position: relative;
+        background: #12332f;
+    }
+
+    .hero-overlay h1 {
+        font-size: 3rem;
+    }
+
+    .hero-image {
+        min-height: 260px;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}

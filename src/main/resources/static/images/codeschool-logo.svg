@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="CodeSchool logo">
+  <rect width="120" height="120" rx="28" fill="#0f766e"/>
+  <path d="M32 41 14 60l18 19" fill="none" stroke="#fcd34d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 41 106 60 88 79" fill="none" stroke="#fcd34d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68 28 52 92" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+</svg>

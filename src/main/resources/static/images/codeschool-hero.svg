@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="CodeSchool learning banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12332f"/>
+      <stop offset="0.58" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="600" fill="url(#bg)"/>
+  <rect width="1600" height="600" fill="url(#grid)" opacity="0.8"/>
+  <g transform="translate(905 92)">
+    <rect x="0" y="0" width="470" height="318" rx="24" fill="#0b2422" opacity="0.92"/>
+    <rect x="28" y="30" width="414" height="36" rx="10" fill="#183d39"/>
+    <circle cx="52" cy="48" r="7" fill="#ef4444"/>
+    <circle cx="78" cy="48" r="7" fill="#f59e0b"/>
+    <circle cx="104" cy="48" r="7" fill="#22c55e"/>
+    <text x="45" y="125" fill="#a7f3d0" font-family="Menlo, Consolas, monospace" font-size="28">function learn() {</text>
+    <text x="78" y="174" fill="#fcd34d" font-family="Menlo, Consolas, monospace" font-size="28">build.projects();</text>
+    <text x="78" y="223" fill="#ffffff" font-family="Menlo, Consolas, monospace" font-size="28">ship.skills();</text>
+    <text x="45" y="272" fill="#a7f3d0" font-family="Menlo, Consolas, monospace" font-size="28">}</text>
+  </g>
+  <g transform="translate(1110 400)">
+    <rect x="0" y="0" width="250" height="80" rx="20" fill="#ffffff" opacity="0.92"/>
+    <path d="M46 52 28 39l18-13" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M204 26 222 39l-18 13" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M137 18 113 62" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
